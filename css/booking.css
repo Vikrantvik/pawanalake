@@ -1,0 +1,51 @@
+.containerf {
+    max-width: 400px; /* Adjust as needed */
+    padding: 20px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.form-control {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+    margin-bottom: 1rem; /* Add some bottom margin for spacing */
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btnf {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.btnf:hover {
+    background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .containerf {
+        width: 100%;
+    }
+}
